@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import flash.events.*;		public class winloseicon extends MovieClip {						public function winloseicon() {			addEventListener(Event.ENTER_FRAME, create);		}		public function create(event:Event):void{			if(this.visible == true){				x = 0;				y = 160;							}		}	}	}
